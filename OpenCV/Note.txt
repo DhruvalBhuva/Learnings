@@ -1,0 +1,3 @@
+Image CV2 Function:
+  1) imread => This function is used to read the image from location
+  -

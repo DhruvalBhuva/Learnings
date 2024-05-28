@@ -1,0 +1,11 @@
+Soltuion Explanation:
+  - We will make it supervised learning problem. (Input || Output)
+  - Sentence = "My nane is Dhruval."
+  - Input   -> Output
+    My  -> Name
+    My name -> is
+    My name is -> Dhruval
+    I live -> in
+
+
+- In the supervised learning, regression solution won't be possible (We have integer number for each words). with regards to classification, we are choosing multiclass classification soltions

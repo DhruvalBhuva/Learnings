@@ -1,0 +1,58 @@
+==> NLP pipe line stages:
+1. Data Acquisition:
+  i) Available Data: a) On table data to start work
+    b) Data in Database
+    - Data Engineering
+    c) less data
+    - Data Angment = > synonyms
+    > bigram flip
+    > back translate
+    > add noise
+
+  ii) Others:
+    - Public dataset
+    - Web Scraping > using beautifulsoup lib
+    - API calls > Rapid APIs
+    - PDF
+    - Image
+    - Audio/ video > speech to text
+
+  iii) Nobody:
+
+2. Text Preparation:
+  i) Basic Cleaning:
+    - Remove special characters, numbers and punctuations, tags while web scraping
+    - Remove emojis
+    - Spelling checking
+
+  ii) Basic Preprossing:
+    - Tokenization (splitting into words or sentences)
+    - Stemming / Lemmatizing
+    - Stopwords removal
+    - lower/ upercasing
+
+  iii) Advance Preprocessing (Not every time used):
+    - Parts of speech tagging
+    - Parsing
+    - Coreference resolution
+
+3. Feature Engineering:
+  i) Bag Of Words:
+    - TFIDF
+    - OHE
+
+  ii)Word2Vec:
+
+4. Modelling:
+  i) Modelling: (Technice depends on problem)
+  - Heuristaic
+  - ML Algo
+  - DL
+  - Cloud APIs
+
+  ii) Evaluation: 
+
+5. Deployment:
+ i)   Deploy
+ ii)  MOnitoring
+ iii) Update

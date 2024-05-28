@@ -1,0 +1,20 @@
+Process to deploy app on AWS using git:
+  - Upload on git
+
+  - Launch EC2
+
+  - Fire the commnd on that instance cmd
+    - sudo apt-get update
+    - sudo apt upgrade -y
+    - sude apt install git curl umzip tar make sudo vim wget -y
+    - git clone <repo link>
+    - sudp apt install python3-pip
+    - pip3 install -r requirements.txt
+    - python3 -m streamlit run StreamlitApp.py
+
+  - To set .env enviroment
+    - create .env file on server using `touch.env`
+    - open file `vi .env` (press insert, enter key values, press :wq and enter to exit)
+
+  - Go to security and add inbound rule
+    - set port number where streamlit is running (i.e 8501)
